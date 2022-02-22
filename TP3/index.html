@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Générateur de mot de Passe</title>
+        <link rel="stylesheet" href="style.css">
+     </head>
+    <body>
+         <div class="container">
+                <button class="copy">copy</button>
+                <h1 class="generer" >Générer un mot de Passe</h1>
+                <h3 class=".pass"> Mot de Passe</h3>
+         <form class="form">
+                    <label for="lmdp"> Longueur du Password</label>
+            <div class="Longueur">
+                <input  class="input" 
+                type="number" min="1" max="15" value="15"  id="lmdp">
+            </div>
+                <label for="clM">Contient des Lettres Majuscules</label>
+                <input type="checkbox" name="" id="clM">
+                    
+                <label for="clm"> Contient des Lettres Minuscules</label>
+                    <input type="checkbox" name="" id="clm">
+
+                <label for="cn"> Contient des Nombres</label>
+                    <input type="checkbox" id="number">
+
+                <label for="cs">Contient des caracteres Speciaux</label>
+                    <input type="checkbox" name="" id="cs">
+
+                    <button type="submit" class="btn">Générer Le Mot De Passe</button>
+        </form>
+             </div>
+              <script src="script.js"></script>
+    </body>
+</html>

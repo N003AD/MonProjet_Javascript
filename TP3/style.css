@@ -1,0 +1,76 @@
+body{
+    background-color: yellow; /* rgb(190, 111, 111); */
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+.container{
+    background-color: green; /* #1c0258c2; */
+    padding: 0.8rem;
+    border:  1em solid  rgb(72, 4, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.copy{
+    align-self:flex-end;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.generer{
+    margin: 0;
+    text-align: center;
+}
+label{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.Longueur{
+    display: flex;
+    align-items: center;
+}
+.input{
+    width: 2rem;
+}
+.mdp{
+    background-color: rgb(72, 4, 117);
+    color: white;
+    padding: 1.7rem;
+    border:2px solid purple;
+    height:2rem;
+    width: 300px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    word-break:break-all;
+    font-size: 50px;
+}
+.btn{
+    grid-column: span 2;
+    background-color: blue; /* rgb(255, 217, 0); */
+    color: white; /* purple; */
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid;
+    font-size: 25px;
+}
+.btn:hover {
+    background-color: green;
+}
